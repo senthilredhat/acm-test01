@@ -10,3 +10,16 @@ metadata:
 spec:
   finalizers:
   - kubernetes
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  annotations:
+    openshift.io/description: ""
+    openshift.io/display-name: ""
+  labels:
+    kubernetes.io/metadata.name: app-of-apps
+  name: app-of-apps
+spec:
+  finalizers:
+  - kubernetes
