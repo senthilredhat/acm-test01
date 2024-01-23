@@ -1,0 +1,10 @@
+apiVersion: apps.open-cluster-management.io/v1
+kind: Channel
+metadata:
+  annotations:
+    apps.open-cluster-management.io/reconcile-rate: medium
+  name: git-do480-apps
+  namespace: git-do480-apps-ns
+spec:
+  pathname: https://github.com/senthilredhat/DO480-apps.git
+  type: Git
