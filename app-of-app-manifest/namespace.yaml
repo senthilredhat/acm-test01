@@ -7,9 +7,6 @@ metadata:
   labels:
     kubernetes.io/metadata.name: git-do480-apps-ns
   name: git-do480-apps-ns
-spec:
-  finalizers:
-  - kubernetes
 ---
 apiVersion: v1
 kind: Namespace
@@ -20,6 +17,3 @@ metadata:
   labels:
     kubernetes.io/metadata.name: app-of-apps
   name: app-of-apps
-spec:
-  finalizers:
-  - kubernetes
