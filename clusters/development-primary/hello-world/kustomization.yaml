@@ -1,7 +1,7 @@
 kind: Kustomization
 
 bases:
-  - ../../../../components/hello-world
+  - ../../../components/hello-world
 
 resources:
 - route.yaml

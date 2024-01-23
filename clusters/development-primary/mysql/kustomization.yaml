@@ -1,7 +1,7 @@
 kind: Kustomization
 
 bases:
-  - ../../../../components/mysql
+  - ../../../components/mysql
 
 resources:
 - dbclaim-pvc.yaml
