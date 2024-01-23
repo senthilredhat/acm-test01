@@ -31,14 +31,14 @@ spec:
   placement:
     placementRef:
       kind: PlacementRule
-      name: mysql-placement-1
+      name: production-placement
 ---
 apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
 metadata:
   labels:
     app: mysql
-  name: mysql-placement-1
+  name: production-placement
   namespace: mysql
 spec:
   clusterSelector:
