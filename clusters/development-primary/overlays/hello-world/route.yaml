@@ -4,7 +4,9 @@ metadata:
   labels:
     name: hello-world
   name: hello-world
+  namespace: helloworld
 spec:
+  host: hello-world.apps.ocp4.example.com
   to:
     kind: Service
     name: hello-world
