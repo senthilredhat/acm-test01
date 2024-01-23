@@ -1,7 +1,7 @@
 apiVersion: app.k8s.io/v1beta1
 kind: Application
 metadata:
-  name: mysql
+  name: mysql-app
   namespace: mysql
 spec:
   componentKinds:
@@ -31,14 +31,14 @@ spec:
   placement:
     placementRef:
       kind: PlacementRule
-      name: production-placement
+      name: mysql-production-placement
 ---
 apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
 metadata:
   labels:
     app: mysql
-  name: production-placement
+  name: mysql-production-placement
   namespace: mysql
 spec:
   clusterSelector:
