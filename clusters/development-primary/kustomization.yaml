@@ -7,5 +7,6 @@ components:
   - ../../groups/geo-east
 resources:
   - ./overlays/mysql
+  - ./overlays/hello-world
 
 nameSuffix: -development-primary
