@@ -3,7 +3,7 @@ kind: Subscription
 metadata:
   annotations:
     apps.open-cluster-management.io/git-branch: main
-    apps.open-cluster-management.io/git-path: clusters/development-primary/overlays/hello-world
+    apps.open-cluster-management.io/git-path: clusters/development-primary/hello-world
     apps.open-cluster-management.io/reconcile-option: merge
   labels:
     app: hello-world
