@@ -3,8 +3,8 @@ kind: Channel
 metadata:
   annotations:
     apps.open-cluster-management.io/reconcile-rate: medium
-  name: git-do480-apps
-  namespace: git-do480-apps-ns
+  name: ggithubcom-senthilredhat-acm-test01
+  namespace: ggithubcom-senthilredhat-acm-test01-ns
 spec:
-  pathname: https://github.com/senthilredhat/DO480-apps.git
   type: Git
+  pathname: 'https://github.com/senthilredhat/acm-test01.git'

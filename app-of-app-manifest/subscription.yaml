@@ -10,8 +10,8 @@ metadata:
   name: app-of-apps-subscription-1
   namespace: app-of-apps
 spec:
-  channel: git-do480-apps-ns/git-do480-apps
+  channel: ggithubcom-senthilredhat-acm-test01-ns/ggithubcom-senthilredhat-acm-test01
   placement:
     placementRef:
       kind: PlacementRule
-      name: app-of-apps-placement
+      name: app-of-apps-placement-1

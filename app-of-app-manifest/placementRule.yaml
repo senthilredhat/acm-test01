@@ -3,7 +3,7 @@ kind: PlacementRule
 metadata:
   labels:
     app: app-of-apps
-  name: app-of-apps-placement
+  name: app-of-apps-placement-1
   namespace: app-of-apps
 spec:
   clusterSelector:
