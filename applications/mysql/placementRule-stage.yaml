@@ -1,0 +1,11 @@
+apiVersion: apps.open-cluster-management.io/v1
+kind: PlacementRule
+metadata:
+  labels:
+    app: mysql
+  name: mysql-stage-placement
+  namespace: mysql
+spec:
+  clusterSelector:
+    matchLabels:
+      env: stage
