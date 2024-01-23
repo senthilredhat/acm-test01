@@ -3,7 +3,7 @@ kind: PlacementRule
 metadata:
   labels:
     app: hello-world
-  name: mysql-production-placement
+  name: hello-world-production-placement
   namespace: helloworld
 spec:
   clusterSelector:
