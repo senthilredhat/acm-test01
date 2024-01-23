@@ -7,7 +7,7 @@
     cd acm-test01
     oc apply -k ./app-of-app-manifest/
     `
-3. This should install two applications to clusters based on label `env` with values `stage` or `production`
+3. This should install two applications to clusters based on label `env=stage` or `env=production`
 
 ## Folder Structure
 
