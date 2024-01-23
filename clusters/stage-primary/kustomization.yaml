@@ -6,4 +6,8 @@ components:
   - ../../groups/prod
   - ../../groups/geo-east
 
+resources:
+  - ./overlays/mysql
+
+
 nameSuffix: -stage-primary
