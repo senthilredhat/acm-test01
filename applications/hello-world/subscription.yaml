@@ -3,15 +3,15 @@ kind: Subscription
 metadata:
   annotations:
     apps.open-cluster-management.io/git-branch: main
-    apps.open-cluster-management.io/git-path: clusters/development-primary/mysql
+    apps.open-cluster-management.io/git-path: clusters/development-primary/hello-world
     apps.open-cluster-management.io/reconcile-option: merge
   labels:
-    app: mysql
-  name: mysql-subscription-1
-  namespace: mysql
+    app: hello-world
+  name: hello-world-subscription-1
+  namespace: hello-world
 spec:
   channel: ggithubcom-senthilredhat-acm-test01-ns/ggithubcom-senthilredhat-acm-test01
   placement:
     placementRef:
       kind: PlacementRule
-      name: mysql-production-placement
+      name: hello-world-production-placement
