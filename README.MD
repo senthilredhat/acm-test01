@@ -18,7 +18,4 @@ This folder contains placement and subscriptions for individual application
 Folder contains deployment customizations per cluster
 
 ### Components
-Original manifests for individual applications
-
-
-
+Original manifests for individual application

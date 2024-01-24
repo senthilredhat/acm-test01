@@ -1,5 +1,8 @@
 kind: Kustomization
 
+components:
+  - ../common
+
 bases:
   - ../../../components/hello-world
 
