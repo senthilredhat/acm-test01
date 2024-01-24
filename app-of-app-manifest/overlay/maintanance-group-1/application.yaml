@@ -1,8 +1,8 @@
 apiVersion: app.k8s.io/v1beta1
 kind: Application
 metadata:
-  name: app-of-apps
-  namespace: app-of-apps
+  name: maintanance-group-1
+  namespace:  maintanance-group-1
 spec:
   componentKinds:
   - group: apps.open-cluster-management.io
@@ -13,4 +13,4 @@ spec:
       - key: app
         operator: In
         values: 
-          - app-of-apps
+          -  maintanance-group-1

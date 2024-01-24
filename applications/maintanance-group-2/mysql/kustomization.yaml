@@ -2,7 +2,5 @@ kind: Kustomization
 
 resources:
 - application.yaml
-- placementRule.yaml
-- subscription.yaml
 - placementRule-stage.yaml
 - subscription-stage.yaml

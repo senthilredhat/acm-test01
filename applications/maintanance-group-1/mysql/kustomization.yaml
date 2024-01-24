@@ -1,0 +1,6 @@
+kind: Kustomization
+
+resources:
+- application.yaml
+- placementRule.yaml
+- subscription.yaml

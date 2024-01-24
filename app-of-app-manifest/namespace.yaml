@@ -1,9 +1,0 @@
-apiVersion: v1                    
-kind: Namespace
-metadata:
-  name: app-of-apps                             
----
-apiVersion: v1                      
-kind: Namespace
-metadata:
-  name: ggithubcom-senthilredhat-acm-test01-ns

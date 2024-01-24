@@ -1,0 +1,11 @@
+apiVersion: apps.open-cluster-management.io/v1
+kind: PlacementRule
+metadata:
+  labels:
+    app: app-of-apps
+  name: acm-cluster-placement
+  namespace: maintanance-group-1
+spec:
+  clusterSelector:
+    matchLabels:
+      'local-cluster': 'true'
