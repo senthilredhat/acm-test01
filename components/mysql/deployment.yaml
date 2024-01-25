@@ -30,6 +30,10 @@ spec:
           value: mypa55
         - name: MYSQL_DATABASE
           value: items
+        - name: CHANGE_1
+          value: "Simulate Base changes"
+        - name: CHANGE_2
+          value: "Simulate Base changes"
         ports:
         - containerPort: 3306
           name: mysql
