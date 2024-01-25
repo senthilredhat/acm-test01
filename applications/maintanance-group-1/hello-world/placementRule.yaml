@@ -4,7 +4,7 @@ metadata:
   labels:
     app: hello-world
   name: hello-world-production-placement
-  namespace: helloworld
+  namespace: hello-world
 spec:
   clusterSelector:
     matchLabels:
